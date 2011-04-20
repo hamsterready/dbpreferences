@@ -1,0 +1,8 @@
+Example database based preferences storage. 
+
+Fixes two issues:
+ * http://code.google.com/p/android/issues/detail?id=14359
+ * lack of support for multiple processes access to SharedPreferences
+
+Quote from http://developer.android.com/reference/android/content/SharedPreferences.html
+  Note: currently this class does not support use across multiple processes. This will be added later.
